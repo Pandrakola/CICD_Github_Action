@@ -136,7 +136,7 @@ with open('scores.txt', "w") as score:
     score.write("Recall Score: %2.1f%%\n" % recall_lr)
 
 
-----------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
 #C:\Anitha\DataScience-Vscode>cd CICD
 
 #C:\Anitha\DataScience-Vscode\CICD>cd code_2(iris.csv)

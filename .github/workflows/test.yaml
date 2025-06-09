@@ -29,9 +29,4 @@ jobs:
           echo '|[](./FeatureImportance.png "FeatureImportance")' >> report1.md
      
           cat report.md report1.md >> combined_file.md
-          cml comment create combined_file.mdmd
-          echo '|[](./ConfusionMatrix.png "ConfusionMatrix")' >> report1.md
-          echo '|[](./FeatureImportance.png "FeatureImportance")' >> report1.md
-     
-          cat report.md report1.md >> combined_file.md
           cml comment create combined_file.md
